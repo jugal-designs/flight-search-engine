@@ -1,0 +1,62 @@
+.card.search-details {
+    margin: 0.5em 0.5em;
+    background-color: #fff;
+    padding: 1em 1em 0.5em 1em;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.flights-details {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.flight-timings span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+@media (min-width: 670px) {
+    .card.search-details {
+        margin: 0.5em 1em;
+    }
+
+    .search-details {
+        display: flex;
+    }
+
+    .travel-plan {
+        flex: 2;
+    }
+
+    .travel-dates {
+        flex: 1;
+    }
+
+    .container-flex {
+        display: flex;
+    }
+
+    .container-flex {
+        display: flex;
+        width: 100%;
+    }
+
+    .flights-details {
+        flex: 2;
+    }
+
+    .flight-timings {
+        flex: 1;
+    }
+
+    .flight-timings span {
+        text-align: right;
+
+    }
+}

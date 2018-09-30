@@ -1,0 +1,110 @@
+.card {
+    background-color: #ffffff;
+    color: #4d4d4d;
+    padding: 0.75em;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.search-results {
+    margin: 0.5em;
+    font-size: 14px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-box-2 {
+    width: 100%;
+    margin-top: 1em;
+}
+
+img.flight-logo {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.flight-price {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+@media (min-width: 670px) {
+    .search-results {
+        margin: 0.5em 1em;
+    }
+
+    .flex-container {
+        justify-content: space-between;
+    }
+
+    .flex-box-2 {
+        flex: 1;
+        min-width: calc(50% - 0.5em);
+        max-width: calc(50% - 0.5em);
+    }
+}
+
+
+
+.flight-details {
+    flex: 2;
+}
+
+.flight-logo {
+    flex: 1;
+    text-align: center;
+}
+
+button.btn.btn-info {
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    padding: 7px;
+    width: 100%;
+    outline: none;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.departure,
+.return {
+    padding: 1em 0.5em;
+    margin-right: 0.5em;
+    font-size: 11px;
+    min-width: 13em;
+}
+
+.flight-number {
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+
+.flight-direction {
+    font-size: 14px;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+
+.flight-time span {
+    float: right;
+    margin-left: 0.5em;
+}
+
+.flight-time {
+    margin-bottom: 0.25em;
+}
+
+span.journey-type {
+    font-size: 14px;
+    float: right;
+    margin-top: 14px;
+    margin-right: 1em;
+}
