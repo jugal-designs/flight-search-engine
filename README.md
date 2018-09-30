@@ -13,6 +13,7 @@
    > $ npm start
 4. Open the application in browser by following url 
    > http://localhost:3000/
+5. Feel free to play with design - click on Ariplane icon near app title to get the flight search menu sidebar
 
 #
 ## Features 
