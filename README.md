@@ -7,6 +7,7 @@
    > $ git clone https://github.com/jugal-designs/flight-search-engine.git 
 2. Install required libraries using npm
    > $ cd flight-search-engine
+   
    > $ npm install
 3. Run the application using npm
    > $ npm start
